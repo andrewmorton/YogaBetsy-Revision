@@ -1,12 +1,96 @@
-body {
-  width: 100%;
-  max-width: 1920px;
+/* General Styling classes */
+
+.vertBottom {
+  vertical-align: bottom;
 }
 
-ul.noBull {
-  list-style-type: none;
+.centered {
+  text-align: center;
+  margin: 0px auto;
 }
 
 .widthOfParent {
   width: 100%;
+}
+
+
+/* body wrapper styling */
+div#bodyWrapper {
+  width: 100%;
+  height: 800px;
+  max-height: 1080px;
+  max-width: 1920px;
+
+}
+
+/* List Styling */
+ul.noBull {
+  list-style-type: none;
+}
+
+li.inlineList {
+    display: inline-block;
+}
+
+
+/* Settings for the Navigation bar and top panel */
+  div#topBannerWrapper {
+    /* Width of parent */
+    height: 20%;
+    background-color: white;
+    vertical-align: top;
+    padding: 5px;
+    margin-bottom: 0px;
+  }
+
+div#navigationBarContainer {
+  height: 80%;
+  width: 66%;
+  border-bottom: 1px solid rgb(158, 158, 158);
+
+}
+
+ul#navBarList {
+  padding-top: 70px;
+  font-size: 18pt;
+  font-style: italic;
+}
+
+ul#navBarList li.navList {
+  padding-left: 5px;
+}
+
+
+
+/*================================================*/
+/* Settings for the lower panel on the site */
+
+div#lowerLevelWrapper {
+  background-color: rgb(255, 0, 212);
+  margin-top: 0px;
+  height: 75%;
+}
+
+
+/* Settings for left column of lower panel */
+
+div#leftSideColumnWrapper {
+  width: 30%;
+  height: 100%;
+  float: left;
+  background-color: white;
+}
+
+div#youtubeIndexContainer {
+  margin-top: 100%;
+  height: 25%;
+}
+
+/* Settings for Middle Column */
+
+div#middleColumnWrapper {
+  width: 33%;
+  height: 100%;
+  float: left;
+  margin-left: 5px;
 }
