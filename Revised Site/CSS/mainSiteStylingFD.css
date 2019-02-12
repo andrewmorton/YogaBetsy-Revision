@@ -1,0 +1,105 @@
+
+html {
+  font-size: 14pt;
+}
+
+body {
+  width: 100%;
+  max-width: 1920px;
+}
+
+ul.noBull {
+  list-style-type: none;
+}
+
+li.horizontalList {
+  display: inline-block;
+}
+
+div.centered {
+ display: inline-block;
+ margin-right: auto;
+ margin-left: auto;
+ width: 50%;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.widthOfParent {
+  width: 100%;
+}
+
+#bodyWrapper {
+  width: 100%;
+  max-width: 1920px;
+  overflow: auto;
+}
+
+#bodyContainer {
+  display: inline-block;
+  max-width: 1920px;
+}
+
+div#headingWrapper {
+  height: 100px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  background: blue;
+}
+
+div#headingContainer {
+  text-align: center;
+  height: 100px;
+  vertical-align: middle;
+  padding: 3px 0px;
+}
+
+/*Style for the Bulletin Board*/
+div#bulletinBoardWrapper {
+  text-align: left;
+  width: 15%;
+  overflow: auto;
+  margin-top: 0px;
+  float: left;
+}
+
+div#bulletinBoardContainer {
+  vertical-align: top;
+}
+/* 
+div#assistanceButtonsContainer {
+  
+} */
+
+
+/*Style for the Middle Title*/
+div#midBoxWrapper {
+  width: 70%;
+  background-color: blue;
+  float: left;
+}
+
+
+
+/*Style for Investigate further*/
+div#investigateFurtherWrapper {
+  width: 15%;
+  float: right;
+  vertical-align: top;
+}
+
+div#investigateFurtherContainer {
+  display: inline-block;
+}
+
+/*Style for Video Links*/
+div#videoLinksWrapper {
+  display: block; 
+  padding-top: 450px;
+}
+
+
+
+

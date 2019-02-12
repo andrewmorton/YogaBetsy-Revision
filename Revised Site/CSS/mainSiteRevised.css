@@ -1,0 +1,12 @@
+body {
+  width: 100%;
+  max-width: 1920px;
+}
+
+ul.noBull {
+  list-style-type: none;
+}
+
+.widthOfParent {
+  width: 100%;
+}
